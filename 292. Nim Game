@@ -1,0 +1,8 @@
+/*
+https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem
+*/
+public class Solution {
+    public boolean canWinNim(int n) {
+        return (n % 4 != 0);  
+    }
+}
